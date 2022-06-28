@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "151baf21-b93a-4433-b72b-f7a49adb5a21": {
+      "ProjectGuid": "151baf21-b93a-4433-b72b-f7a49adb5a21",
+      "DisplayName": "EstruturaDeDados",
+      "ColorIndex": 0
+    },
+    "d00ca20a-78da-4c11-841d-f0730886ad53": {
+      "ProjectGuid": "d00ca20a-78da-4c11-841d-f0730886ad53",
+      "DisplayName": "ConsoleTestesDataStruct",
+      "ColorIndex": 1
+    },
+    "5a85750b-e315-4859-86b8-ae5b850941ae": {
+      "ProjectGuid": "5a85750b-e315-4859-86b8-ae5b850941ae",
+      "DisplayName": "ConsoleEstruturaDeDados",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

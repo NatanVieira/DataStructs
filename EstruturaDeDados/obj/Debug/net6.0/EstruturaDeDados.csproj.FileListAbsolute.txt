@@ -1,0 +1,12 @@
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\bin\Debug\net6.0\EstruturaDeDados.deps.json
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\bin\Debug\net6.0\EstruturaDeDados.dll
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\bin\Debug\net6.0\ref\EstruturaDeDados.dll
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\bin\Debug\net6.0\EstruturaDeDados.pdb
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.AssemblyInfoInputs.cache
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.AssemblyInfo.cs
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.csproj.CoreCompileInputs.cache
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.dll
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\ref\EstruturaDeDados.dll
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.pdb
+C:\Users\natanael.vieira\Desktop\Outros\C#DataStructs\EstruturaDeDados\EstruturaDeDados\obj\Debug\net6.0\EstruturaDeDados.csproj.AssemblyReference.cache

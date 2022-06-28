@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleEstruturaDeDados/1.0.0": {
+        "dependencies": {
+          "EstruturaDeDados": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleEstruturaDeDados.dll": {}
+        }
+      },
+      "EstruturaDeDados/1.0.0": {
+        "runtime": {
+          "EstruturaDeDados.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleEstruturaDeDados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EstruturaDeDados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
