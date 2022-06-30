@@ -2,46 +2,56 @@
 {
     public class Pilha
     {
-        private int count;
-        private List<Object> elementos;
+        #region Atributos
+            private int count;
+            private List<object> pilha;
+        #endregion
 
-        public int Count { get; set; }
-
-        public int size() => this.count;
-
-        public bool isEmpty() => this.size() == 0;
-
-        public void push(Object elemento)
-        {
-            if(this.elementos == null)
-                this.elementos = new List<Object>();
-
-            if(elemento != null) {
-                this.elementos.Add(elemento);
-                this.count++;
-            }
-
+        #region Construtores
+            public Pilha() {
+            this.count = 0;
+            this.pilha = new List<object>();
         }
+        #endregion
 
-        public Object pop()
-        {
-            Object elementoRetorno = this.elementos.ElementAt(this.count - 1);
-            this.elementos.RemoveAt(this.count - 1);
-            this.count--;
-            return elementoRetorno;
-        }
+        #region Métodos
+            public int size() => this.count;
 
-        public override string ToString()
-        {
-            string elementosString = "";
-            if (!this.isEmpty()) {
-                for(int i = 0; i <= this.size() - 1;i++) {
-                    elementosString = $"{elementosString}{this.elementos[i]}";
-                    if(!(i == this.size() - 1))
-                        elementosString += ",";
+            public bool IsEmpty() => this.size() == 0;
+
+            public void push(object elemento)
+            {
+                if(this.pilha == null)
+                    this.pilha = new List<object>();
+
+                if(elemento != null) {
+                    this.pilha.Add(elemento);
+                    this.count++;
                 }
             }
-            return elementosString;
-        }
+
+            public object pop()
+            {
+                if(!this.IsEmpty()) {
+                    object elementoRetorno = this.pilha.ElementAt(this.count - 1);
+                    this.pilha.RemoveAt(this.count - 1);
+                    this.count--;
+                    return elementoRetorno;
+                }
+                return null;
+            }
+
+            public override string ToString()
+            {
+                string pilhaString = "";
+                if (!this.IsEmpty()) {
+                    for(int i = 0; i <= this.size() - 1;i++) {
+                        pilhaString = $"{pilhaString}{this.pilha[i]}";
+                        pilhaString = pilhaString.Substring(0,pilhaString.Length - 1);
+                    }
+                }
+                return pilhaString;
+            }
+        #endregion
     }
 }
