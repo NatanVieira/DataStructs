@@ -1,18 +1,18 @@
 ﻿namespace EstruturaDeDados {
     public class Deque {
-        #region Atributos
+        #region Props
             private int count;
             private List<Object> deque;
         #endregion
 
-        #region Construtores
+        #region Constructors
             public Deque() {
                 this.count = 0;
                 this.deque = new List<object> ();
             }
         #endregion
 
-        #region Métodos
+        #region Methods
             public int Size() => this.count;
 
             public bool IsEmpty() => this.Size() == 0;
@@ -23,10 +23,10 @@
             }
 
             public object RemoveBack() {
-                object elementoRetorno = this.deque[this.count - 1];
+                object elementReturn = this.deque[this.count - 1];
                 this.count--;
                 this.deque.RemoveAt(this.count - 1);
-                return elementoRetorno;
+                return elementReturn;
             }
 
             public void AddFront(object elemento) {

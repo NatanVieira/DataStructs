@@ -6,48 +6,48 @@ public class Programa {
 
     static void Main(string[] args) {
 
-        #region Testando a Estrutura Pilha
+        #region Testing Stack Struct
 
-        //Pilha pilha = new Pilha();
+        //Stack stack = new Stack();
 
-        //pilha.push("1");
-        //pilha.push("2");
+        //stack.push("1");
+        //stack.push("2");
 
-        //Console.WriteLine($"Pilha: {pilha.ToString()}");
+        //Console.WriteLine($"stack: {stack.ToString()}");
 
-        //Console.WriteLine($"Retirando o último item da pilha: {pilha.pop()}");
+        //Console.WriteLine($"Removing last item from stack: {stack.pop()}");
 
-        //Console.WriteLine($"Pilha: {pilha.ToString()}");
+        //Console.WriteLine($"stack: {stack.ToString()}");
 
-        //Console.WriteLine($"Retirando o último item da pilha: {pilha.pop()}");
+        //Console.WriteLine($"Removing last item from stack:: {stack.pop()}");
 
-        //Console.WriteLine($"Pilha: {pilha.ToString()}");
-
-        #endregion
-
-        #region Testando Estrutura Fila
-
-        //Fila fila = new Fila();
-        //fila.Push(3); //inclui 3
-        //fila.Push(4); //inclui 4
-        //fila.Push(5); //inclui 5
-
-        //Console.WriteLine(fila.ToString()); //mostra 3,4,5
-
-        //Console.WriteLine(fila.Pop()); //retira o 3
-        //Console.WriteLine(fila.ToString()); // mostra 4,5
-
-        //fila.Push(20); //inclui 20
-        //fila.Push(30); //inclui 30
-        //Console.WriteLine(fila.ToString()); //mostra 4,5,20,30
-
-        //fila.Push(33); //inclui 33
-        //fila.Pop(); //retira o 4
-        //Console.WriteLine(fila.ToString()); //mostra 5,20,30,33
+        //Console.WriteLine($"stack: {stack.ToString()}");
 
         #endregion
 
-        #region Testando a Estrutura Deque
+        #region Testing Queue Struct
+
+        //Queue queue = new Queue();
+        //queue.Push(3); //add 3
+        //queue.Push(4); //add 4
+        //queue.Push(5); //add 5
+
+        //Console.WriteLine(queue.ToString()); //show 3,4,5
+
+        //Console.WriteLine(queue.Pop()); //remove 3
+        //Console.WriteLine(queue.ToString()); // show 4,5
+
+        //queue.Push(20); //add 20
+        //queue.Push(30); //add 30
+        //Console.WriteLine(queue.ToString()); //show 4,5,20,30
+
+        //queue.Push(33); //add 33
+        //queue.Pop(); //remove o 4
+        //Console.WriteLine(queue.ToString()); //show 5,20,30,33
+
+        #endregion
+
+        #region Testing Deque Struct
 
         #endregion
     }
