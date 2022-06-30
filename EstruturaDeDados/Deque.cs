@@ -17,40 +17,39 @@
 
             public bool IsEmpty() => this.Size() == 0;
 
-            public void AddBack(object elemento) {
-                this.deque.Add(elemento);
+            public void AddBack(object element) {
+                this.deque.Add(element);
                 this.count++;
             }
 
             public object RemoveBack() {
                 object elementReturn = this.deque[this.count - 1];
-                this.count--;
                 this.deque.RemoveAt(this.count - 1);
+                this.count--;
                 return elementReturn;
             }
 
-            public void AddFront(object elemento) {
+            public void AddFront(object element) {
                 if(this.IsEmpty())
-                    this.AddBack(elemento);
+                    this.AddBack(element);
                 else {
                     this.AddBack(this.deque[this.count - 1]);
                     for(int i = this.count - 2; i >= 0;i--) {
                         this.deque[i + 1] = this.deque[i];
                     }
-                    this.deque[0] = elemento;
+                    this.deque[0] = element;
                 }
-                this.count++;
             }
 
             public object RemoveFront() {
                 if(!this.IsEmpty()) {
-                    object elementoRetorno = this.deque[ 0 ];
+                    object elementReturn = this.deque[ 0 ];
                     for(int i = 1;i < this.count;i++) {
                         this.deque[i - 1] = this.deque[i];
                     }
                     this.deque.RemoveAt(this.count - 1);
                     this.count--;
-                    return elementoRetorno;
+                    return elementReturn;
                 }
                 return null;
             }

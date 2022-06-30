@@ -48,7 +48,18 @@ public class Programa {
         #endregion
 
         #region Testing Deque Struct
+            Deque deque = new Deque();
 
+            deque.AddFront(1); 
+            deque.AddFront(2);
+            deque.AddFront(3);
+            Console.WriteLine(deque.ToString());
+
+            deque.RemoveBack();
+            Console.WriteLine(deque.ToString());
+
+            deque.RemoveFront();
+            Console.WriteLine(deque.ToString());
         #endregion
     }
 }
