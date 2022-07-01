@@ -1,5 +1,4 @@
-﻿namespace EstruturaDeDados
-{
+﻿namespace EstruturaDeDados.DataStructs {
     public class Stack
     {
         #region Props

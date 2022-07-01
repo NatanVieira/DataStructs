@@ -1,4 +1,4 @@
-﻿using EstruturaDeDados;
+﻿using EstruturaDeDados.DataStructs;
 
 namespace ConsoleEstruturaDeDados;
 
@@ -60,6 +60,10 @@ public class Programa {
 
             deque.RemoveFront();
             Console.WriteLine(deque.ToString());
+        #endregion
+
+        #region Testing Linked List Struct
+
         #endregion
     }
 }

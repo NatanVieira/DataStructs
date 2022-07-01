@@ -1,4 +1,4 @@
-﻿namespace EstruturaDeDados {
+﻿namespace EstruturaDeDados.DataStructs {
     public class Queue {
         #region Props
             private int count;
