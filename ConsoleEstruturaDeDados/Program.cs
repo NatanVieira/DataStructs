@@ -63,20 +63,23 @@ public class Programa {
         #endregion
 
         #region Testing Linked List Struct
-        MyLinkedList myLinkedList = new MyLinkedList();
-        myLinkedList.Add(1);
-        myLinkedList.Add(2);
-        myLinkedList.Add(3);
-        myLinkedList.Add(4);
-        myLinkedList.Add(5);
-        myLinkedList.Add(6);
-        Console.WriteLine(myLinkedList.ToString());
+            //MyLinkedList myLinkedList = new MyLinkedList();
+            //myLinkedList.Add(1);
+            //myLinkedList.Add(2);
+            //myLinkedList.Add(3);
+            //myLinkedList.Add(4);
+            //myLinkedList.Add(5);
+            //myLinkedList.Add(6);
+            //Console.WriteLine(myLinkedList.ToString());
 
-        myLinkedList.Remove();
-        Console.WriteLine(myLinkedList.ToString());
+            //myLinkedList.Remove();
+            //Console.WriteLine(myLinkedList.ToString());
 
-        myLinkedList.AddAt(55,3);
-        Console.WriteLine(myLinkedList.ToString());
+            //myLinkedList.AddAt(55,3);
+            //myLinkedList.AddAt(44,0);
+            //Console.WriteLine(myLinkedList.ToString());
+            //myLinkedList.RemoveAt(0);
+            //Console.WriteLine(myLinkedList.ToString());
         #endregion
     }
 }

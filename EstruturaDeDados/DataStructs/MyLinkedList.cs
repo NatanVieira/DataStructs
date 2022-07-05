@@ -37,6 +37,7 @@
                 if(!this.IsEmpty()) {
                     object elementReturn = this.myLinkedList[this.count - 1].Element;
                     this.myLinkedList[this.count - 2].Next = null;
+                    this.myLinkedList.Remove(this.myLinkedList[this.count -1]);
                     this.count--;
                     return elementReturn;
                 }
@@ -48,16 +49,27 @@
                 MyNode node = new MyNode(element,this.getNodeAt(index));
                 MyNode auxNode = this.getNodeAt(index - 1);
                 auxNode.Next = node;
+                this.myLinkedList.Add(node);
+                for(int i = this.count - 1; i >= index;i--) {
+                    this.myLinkedList[i + 1] = this.myLinkedList[i];
+                }
+                this.myLinkedList[index] = node;
                 this.count++;
             }
 
             public object RemoveAt(int index) {
                 IndexValidation(index);
-                object elementReturn = this.getNodeAt(index).Element;
-                MyNode auxNode = this.getNodeAt(index - 1);
-                auxNode.Next = index == this.count - 1 ? null : this.getNodeAt(index + 1);
-                this.count--;
-                return elementReturn;
+                if(!this.IsEmpty()) {
+                    object elementReturn = this.getNodeAt(index).Element;
+                    if(index > 0) {
+                        MyNode auxNode = this.getNodeAt(index - 1);
+                        auxNode.Next = index == this.count - 1 ? null : this.getNodeAt(index + 1);
+                    }
+                    this.myLinkedList.RemoveAt(index);
+                    this.count--;
+                    return elementReturn;
+                }
+                return null;
             }
 
             private void IndexValidation(int index) {
