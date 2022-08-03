@@ -48,38 +48,48 @@ public class Programa {
         #endregion
 
         #region Testing Deque Struct
-            //Deque deque = new Deque();
+        //Deque deque = new Deque();
 
-            //deque.AddFront(1); 
-            //deque.AddFront(2);
-            //deque.AddFront(3);
-            //Console.WriteLine(deque.ToString());
+        //deque.AddFront(1); 
+        //deque.AddFront(2);
+        //deque.AddFront(3);
+        //Console.WriteLine(deque.ToString());
 
-            //deque.RemoveBack();
-            //Console.WriteLine(deque.ToString());
+        //deque.RemoveBack();
+        //Console.WriteLine(deque.ToString());
 
-            //deque.RemoveFront();
-            //Console.WriteLine(deque.ToString());
+        //deque.RemoveFront();
+        //Console.WriteLine(deque.ToString());
         #endregion
 
         #region Testing Linked List Struct
-            //MyLinkedList myLinkedList = new MyLinkedList();
-            //myLinkedList.Add(1);
-            //myLinkedList.Add(2);
-            //myLinkedList.Add(3);
-            //myLinkedList.Add(4);
-            //myLinkedList.Add(5);
-            //myLinkedList.Add(6);
-            //Console.WriteLine(myLinkedList.ToString());
+        //MyLinkedList myLinkedList = new MyLinkedList();
+        //myLinkedList.Add(1);
+        //myLinkedList.Add(2);
+        //myLinkedList.Add(3);
+        //myLinkedList.Add(4);
+        //myLinkedList.Add(5);
+        //myLinkedList.Add(6);
+        //Console.WriteLine(myLinkedList.ToString());
 
-            //myLinkedList.Remove();
-            //Console.WriteLine(myLinkedList.ToString());
+        //myLinkedList.Remove();
+        //Console.WriteLine(myLinkedList.ToString());
 
-            //myLinkedList.AddAt(55,3);
-            //myLinkedList.AddAt(44,0);
-            //Console.WriteLine(myLinkedList.ToString());
-            //myLinkedList.RemoveAt(0);
-            //Console.WriteLine(myLinkedList.ToString());
+        //myLinkedList.AddAt(55,3);
+        //myLinkedList.AddAt(44,0);
+        //Console.WriteLine(myLinkedList.ToString());
+        //myLinkedList.RemoveAt(0);
+        //Console.WriteLine(myLinkedList.ToString());
+        #endregion
+
+        #region Testing Double Linked List Struct
+        MyDoublyLinkedList myDoubleLinkedList = new MyDoublyLinkedList();
+
+        myDoubleLinkedList.Add(1);
+
+        myDoubleLinkedList.Add(2);
+        Console.WriteLine(myDoubleLinkedList.ToString());
+
         #endregion
     }
 }

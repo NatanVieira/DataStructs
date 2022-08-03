@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj": {}
+    "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj": {}
   },
   "projects": {
-    "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj": {
+    "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj",
+        "projectUniqueName": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj",
         "projectName": "ConsoleEstruturaDeDados",
-        "projectPath": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj",
+        "projectPath": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\ConsoleEstruturaDeDados.csproj",
         "packagesPath": "C:\\Users\\natanael.vieira\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\obj\\",
+        "outputPath": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\ConsoleEstruturaDeDados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj": {
-                "projectPath": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj"
+              "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj": {
+                "projectPath": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj": {
+    "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj",
+        "projectUniqueName": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj",
         "projectName": "EstruturaDeDados",
-        "projectPath": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj",
+        "projectPath": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\EstruturaDeDados.csproj",
         "packagesPath": "C:\\Users\\natanael.vieira\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\obj\\",
+        "outputPath": "C:\\Users\\natanael.vieira\\Desktop\\Outros\\C#DataStructs\\EstruturaDeDados\\EstruturaDeDados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
