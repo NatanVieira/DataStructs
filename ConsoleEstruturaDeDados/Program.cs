@@ -83,13 +83,23 @@ public class Programa {
         #endregion
 
         #region Testing Double Linked List Struct
-        MyDoublyLinkedList myDoubleLinkedList = new MyDoublyLinkedList();
+            //MyDoublyLinkedList myDoubleLinkedList = new MyDoublyLinkedList();
 
-        myDoubleLinkedList.Add(1);
+            //myDoubleLinkedList.Add(1);
+            //myDoubleLinkedList.Add(2);
+            //Console.WriteLine($"Add 1 and 2: {myDoubleLinkedList.ToString()}");
 
-        myDoubleLinkedList.Add(2);
-        Console.WriteLine(myDoubleLinkedList.ToString());
+            //myDoubleLinkedList.AddAt(3,2);
+            //Console.WriteLine($"Add 3 at position 2: {myDoubleLinkedList.ToString()}");
 
+            //Console.WriteLine($"Removing a element: {myDoubleLinkedList.Remove()}");
+            //Console.WriteLine($"Remove: {myDoubleLinkedList.ToString()}");
+
+            //myDoubleLinkedList.Add(4);
+            //Console.WriteLine($"Add 4: {myDoubleLinkedList.ToString()}");
+
+            //Console.WriteLine($"Removing a element at position 2: {myDoubleLinkedList.RemoveAt(2)}");
+            //Console.WriteLine($"Remove at position 2: {myDoubleLinkedList.ToString()}");
         #endregion
     }
 }
