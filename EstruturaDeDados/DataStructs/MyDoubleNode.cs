@@ -3,9 +3,9 @@ namespace EstruturaDeDados.DataStructs;
 public class MyDoubleNode {
 
     #region Props
-        public MyDoubleNode? Next {get;set;}
-        public MyDoubleNode? Previous {get;set;}
-        public  object? Element {get;set;}
+        public MyDoubleNode Next {get;set;}
+        public MyDoubleNode Previous {get;set;}
+        public  object Element {get;set;}
     #endregion
 
     #region  Constructors

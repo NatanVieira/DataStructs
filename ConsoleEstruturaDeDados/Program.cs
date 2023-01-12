@@ -101,5 +101,21 @@ public class Programa {
             //Console.WriteLine($"Removing a element at position 2: {myDoubleLinkedList.RemoveAt(2)}");
             //Console.WriteLine($"Remove at position 2: {myDoubleLinkedList.ToString()}");
         #endregion
+
+        #region  Testing Set Struct
+            MySet newSet = new MySet();
+            newSet.Add(1);
+            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            newSet.Add(2);
+            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            newSet.Add(2);
+            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            newSet.Add(3);
+            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            newSet.Remove(2);
+            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+
+            
+        #endregion
     }
 }

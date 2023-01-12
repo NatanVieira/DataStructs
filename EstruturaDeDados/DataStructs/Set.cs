@@ -49,7 +49,7 @@ namespace EstruturaDeDados.DataStructs {
             public object GetElementByPosition(int position){
                 return this.set[position];
             }
-            //Operations Union, Intersection, Diference and SubSet
+            //Operations Union, Intersection, Diference and isSubSet
 
             public bool IsSubSet(MySet otherSet){
                 if(this.Size() > otherSet.Size())
@@ -61,7 +61,7 @@ namespace EstruturaDeDados.DataStructs {
                 return true;
             }
 
-            public MySet Union(MySet otherSet){
+            public MySet Union(MySet otherSet){ //Junção dos dois
                 MySet unionSet = new MySet();
                 for(int i = 0; i < this.Size(); i++)
                     unionSet.Add(this.GetElementByPosition(i));
@@ -69,7 +69,31 @@ namespace EstruturaDeDados.DataStructs {
                     unionSet.Add(otherSet.GetElementByPosition(i));
                 return unionSet;
             }
+            public MySet Intersection (MySet otherSet){ // Tem que estar em A e em B
+                MySet intersectionSet = new MySet();
+                List<object> smallerSet = this.Values();
+                List<object> biggerSet  = otherSet.Values();
+                if(smallerSet.Count > biggerSet.Count){
+                    smallerSet = otherSet.Values();
+                    biggerSet  = this.Values();
+                }
+                for(int i = 0; i < smallerSet.Count; i++){
+                    Object obj = smallerSet[i];
+                    if(biggerSet.Exists((System.Predicate<object>)obj))
+                        intersectionSet.Add(smallerSet[i]);
+                }
+                return intersectionSet;
+            }
 
+            public MySet Diference (MySet otherSet){
+                MySet diferenceSet = new MySet();
+
+                for(int i = 0; i < this.Size(); i++){
+                    if(!otherSet.Exists(this.GetElementByPosition(i)))
+                        diferenceSet.Add(this.GetElementByPosition(i));
+                }
+                return diferenceSet;
+            }
         #endregion
 
     }
