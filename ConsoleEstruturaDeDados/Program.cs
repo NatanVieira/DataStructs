@@ -103,19 +103,18 @@ public class Programa {
         #endregion
 
         #region  Testing Set Struct
-            MySet newSet = new MySet();
-            newSet.Add(1);
-            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
-            newSet.Add(2);
-            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
-            newSet.Add(2);
-            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
-            newSet.Add(3);
-            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
-            newSet.Remove(2);
-            System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            // MySet newSet = new MySet();
+            // newSet.Add(1);
+            // System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            // newSet.Add(2);
+            // System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            // newSet.Add(2);
+            // System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            // newSet.Add(3);
+            // System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
+            // newSet.Remove(2);
+            // System.Console.WriteLine($"MySet: {newSet.Values().ToString()}");
 
-            
         #endregion
     }
 }
